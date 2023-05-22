@@ -163,4 +163,56 @@ nav ul li a:hover::after{
 }
 
 
+/* FOOTER */
+
+.footer{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    color: #2f2f2f;
+    background-color: #fff;
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer-contact{
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+}
+
+.footer-contact h2{
+    margin-top: 1.3em;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.contact-btn-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    max-width: max-content;
+    background-color: rgb(33, 33, 33, 0.07);
+    border-radius: 100px;
+    color: #2f2f2f;
+    line-height: 0;
+    margin: 0.6em 0;
+    font-size: 1rem;
+    padding: 0 1.3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
