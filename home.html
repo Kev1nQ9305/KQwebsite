@@ -13,6 +13,8 @@
     <link rel = "stylesheet" href = "css/home.css">
 
     <!-- 3rd Party LINKS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 </head>
@@ -29,16 +31,27 @@
                 <span class="logo">
                     <a href="#"><img src="/images/logo.png" alt="logo" width="75" height="auto"></a>
                 </span>
+
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#workExperience">Work Experience</a></li>
+                    <li><a href="#index.html">Home</a></li>
+                    <li><a href="#about"">About</a></li>
+                     <!-- <div class = "workExp">
+                        <h1>Work Experience</h1>
+                         <li><a href="#workExperience1">Work Experience</a></li>
+                    </div> -->
+                    <li><a href="#workExperience">Work Experience</a></li> 
                     <li><a href="#research">Research</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#questionMark">???</a></li>
+                    <li><a href ="#blogs">Blogs</a></li> 
                     <li><a href="#contact">Contact</a></li>
-
                 </ul>
+
+                <div class = "social-icons">
+                    <a href="#" class="nav-item nav-link"><i class="fa fa-instagram"></i></a>
+                    <a href="#" class="nav-item nav-link"><i class="fa fa-github"></i></a>
+                    <a href="#" class="nav-item nav-link"><i class="fa fa-linkedin"></i></a>
+                </div>
 
             </nav>
 
@@ -52,6 +65,8 @@
 
     </section>
 
+
+    <!-- About Section -->
     <section class = "aboutScreen">
         <div class = "aboutContainer">
             <div class = "row">
@@ -96,84 +111,131 @@
         </div>
     </section>
 
+    <!--Projects Section-->
+    <section class = "projects">
+        <div class = "pageHeader">
+            <h1>Personal Projects</h1>
 
-<!-- RESPONSIVE FOOTER -->
+            <div class = "headerTextLinks">
 
-<footer class = "footer">
+                <ul>
+                    <li><a href = "#cad">CAD Models</a></li>
+                    <li><a href = "#machined">Machined</a></li>
+                    <li><a href = "#software">Software</a></li>
+                </ul>
+            </div>
 
-    <div class = "footer-contact">
-        <!--LOGO HERE-->
-        <h1>Contact</h1>
-        <a class = "contact-btn-footer" href = "mailto:Kevinq3005@gmail.com">Email Me</a>
-    </div>
+            <div class = "galleryThing">
+                <div class = "galleryBoxes">
+                    <div class = "galleryLeft">
+                        <img src = "images/insertPhotoHere.jpg">
+                        <div class = "galleryTextLeft">
+                            <p>Lorem ipsum dolor sit amet. Est tempore fuga est ipsam</p>
+                            <button class="galleryLearnMoreBtn">Learn More</button>
+                        </div>
+                    </div>
 
-    <ul class = "footer-pages">
-        <h2 class="nav-title">Work Experience</h2>
+                    <div class = "galleryMid">
+                        <img src = "images/insertPhotoHere.jpg">
+                        <div class = "galleryTextMid">
+                            <p>Lorem ipsum dolor sit amet. Est tempore fuga est ipsam</p>
+                            <button class="galleryLearnMoreBtn">Learn More</button>
+                        </div>
+                    </div>
+                    
+                    <div class = "galleryRight">
+                        <img src = "images/insertPhotoHere.jpg">
+                        <div class = "galleryTextRight">
+                            <p>Lorem ipsum dolor sit amet. Est tempore fuga est ipsam</p>
+                            <button class="galleryLearnMoreBtn">Learn More</button>
+                        </div>
+                    </div>
 
-        <ul class="nav__ul">
-            <li>
-            <a href="#">Work Experience 1</a>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+
+<!-- FOOTER -->
+
+    <footer class = "footer">
+
+        <div class = "footer-contact">
+        
+            <h1>Contact</h1>
+            <a class = "contact-btn-footer" href = "mailto:Kevinq3005@gmail.com">Email Me</a>
+        </div>
+
+        <ul class = "footer-pages">
+            <h2 class="nav-title">Work Experience</h2>
+
+            <ul class="nav__ul">
+                <li>
+                <a href="#">Work Experience 1</a>
+                </li>
+
+                <li>
+                <a href="#">Work Experience 2</a>
+                </li>
+                    
+                <li>
+                <a href="#">Work Experience 3</a>
+                </li>
+            </ul>
+
             </li>
-
-            <li>
-            <a href="#">Work Experience 2</a>
-            </li>
+                <li class="nav__item nav__item--extra">
+                <h2 class="nav__title">Research</h2>
                 
-            <li>
-            <a href="#">Work Experience 3</a>
+                <ul class="nav-ul nav__ul--extra">
+                    <li>
+                        <a href="#">Research 1</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#">Research 2</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#">Research 3</a>
+                    </li>
+                </ul>
+
+                </li>
+            <li class="nav__item">
+                <h2 class="nav-title">Projects</h2>
+                
+                <ul class="nav__ul">
+                    <li>
+                        <a href="#">Project 1</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#">Project 2</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#">Project 3</a>
+                    </li>
+                </ul>
             </li>
         </ul>
 
-        </li>
-            <li class="nav__item nav__item--extra">
-            <h2 class="nav__title">Research</h2>
+        <div class="legal">
+            <p>&copy; 2023 Kevin Quintana. All rights reserved.</p>
             
-            <ul class="nav-ul nav__ul--extra">
-                <li>
-                    <a href="#">Research 1</a>
-                </li>
-                
-                <li>
-                    <a href="#">Research 2</a>
-                </li>
-                
-                <li>
-                    <a href="#">Research 3</a>
-                </li>
-            </ul>
-
-            </li>
-            <li class="nav__item">
-            <h2 class="nav-title">Projects</h2>
-            
-            <ul class="nav__ul">
-                <li>
-                    <a href="#">Project 1</a>
-                </li>
-                
-                <li>
-                    <a href="#">Project 2</a>
-                </li>
-                
-                <li>
-                    <a href="#">Project 3</a>
-                </li>
-            </ul>
-        </li>
-    </ul>
-
-    <div class="legal">
-        <p>&copy; 2023 Kevin Quintana. All rights reserved.</p>
-        
-        <!-- 
-        <div class="legal__links">
-          <span>Made with <span class="heart">♥</span> remotely from Anywhere</span>
+            <!-- 
+            <div class="legal__links">
+            <span>Made with <span class="heart">♥</span> remotely from Anywhere</span>
+            </div>
+        -->
         </div>
-        --> 
-    </div>
 
 
-</footer>
+    </footer>
 
 
 
